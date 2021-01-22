@@ -49,14 +49,13 @@ class Fix {
   }
 
   fix() {
-    // File destination.txt will be created or overwritten by default.
-    fs.copyFile('node_modules/serverless-plugin-fix/src/out/reader.js', 'node_modules/fast-glob/out/readers/reader.js', (err) => {
+    fs.copyFile('node_modules/serverless-plugin-fix-optimize-bug/src/out/reader.js', 'node_modules/fast-glob/out/readers/reader.js', (err) => {
       if (err) throw err;
     });
-    fs.copyFile('node_modules/serverless-plugin-fix/src/out/stream.js', 'node_modules/fast-glob/out/readers/stream.js', (err) => {
+    fs.copyFile('node_modules/serverless-plugin-fix-optimize-bug/src/out/stream.js', 'node_modules/fast-glob/out/readers/stream.js', (err) => {
       if (err) throw err;
     });
-    fs.copyFile('node_modules/serverless-plugin-fix/src/out/sync.js', 'node_modules/fast-glob/out/readers/sync.js', (err) => {
+    fs.copyFile('node_modules/serverless-plugin-fix-optimize-bug/src/out/sync.js', 'node_modules/fast-glob/out/readers/sync.js', (err) => {
       if (err) throw err;
     });
   }

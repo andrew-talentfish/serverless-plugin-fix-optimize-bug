@@ -1,7 +1,7 @@
 {
-  "name": "serverless-plugin-optimize",
-  "version": "4.1.4-rc.1",
-  "description": "Bundle with Browserify, transpile and minify with Babel automatically to your NodeJS runtime compatible JavaScript.",
+  "name": "serverless-plugin-fix-optimize-bug",
+  "version": "1.0.0",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
     "lint": "node_modules/.bin/standard src/**",
@@ -20,10 +20,6 @@
     "lambda serverless",
     "optimize lambda"
   ],
-  "bugs": {
-    "url": "https://github.com/FidelLimited/serverless-plugin-optimize/issues"
-  },
-  "homepage": "https://github.com/FidelLimited/serverless-plugin-optimize#readme",
   "dependencies": {
     "bluebird": "^3.5.3",
     "fs-extra": "^7.0.1"
